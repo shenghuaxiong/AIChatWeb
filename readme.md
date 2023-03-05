@@ -5,40 +5,17 @@
 
 目前高级版已支持根据描述生成图片，实时对话
 
-购买链接：https://www.lanshop.me/buy/11
+购买链接：http://nwzz.xyz
 
-展示地址：https://chatx.me
+
+展示地址：http://nwzz.xyz
+
+基于APIKEY的ChatGPT3.5网站资料，包括基于APIKEY的ChatGPT3.5网站源码、部署视频、讲义。关注公众号“诺维之舟”，回复“we2001”获取资料链接。
+
+资料咨询vx : **sophie_sheng1122
+
 
 ![www.lanol.cn](https://gitlab.com/Vastsa/lanpicbed/-/raw/master/zb_users/upload/2023/03/3dccd981881b40c082c82c6ef84b7690.png)
 ![www.lanol.cn](https://gitlab.com/Vastsa/lanpicbed/-/raw/master/zb_users/upload/2023/02/88d117b9787b42f6bdf4a592b897241c.png)
 ![www.lanol.cn](https://gitlab.com/Vastsa/lanpicbed/-/raw/master/zb_users/upload/2023/02/fa273cc78ee1410bb5f419139c4b795d.png)
 
-## 开源版
-
-系统自带 API Key 限制 Token 长度，自定义 Token 不限制长
-![www.lanol.cn](https://gitlab.com/Vastsa/lanpicbed/-/raw/master/zb_users/upload/2023/02/efd99d4ab6fa43f984b683d2ff0379e6.png)
-
-### 回复过长提示
-![www.lanol.cn](https://gitlab.com/Vastsa/lanpicbed/-/raw/master/zb_users/upload/2023/02/093c42da15004390af3eb98bf1a05629.png)
-
-### Token 输入
-![www.lanol.cn](https://gitlab.com/Vastsa/lanpicbed/-/raw/master/zb_users/upload/2023/02/84a06e3461e549cd92e9c748f4eb1903.png)
-
-### Token 更新
-
-进入 url:http://example.com/docs
-密码通过查看启动日志获取，每次启动之后都会变
-Docker使用：docker logs aichat
-![www.lanol.cn](https://gitlab.com/Vastsa/lanpicbed/-/raw/master/zb_users/upload/2023/02/836a212f125248038c5ce4d3627ef454.png)
-
-## Docker 一键部署
-
-> 支持 AMD64 和 ARM64
-
-```shell
-docker run -d --restart=always -p 8000:8000 --name aichat lanol/aichat
-```
-
-## 赞助我
-
-![www.lanol.cn](https://gitlab.com/Vastsa/lanpicbed/-/raw/master/zb_users/upload/2023/02/6402263fb2ff4fddad51cb64fa66f4fb.png)
